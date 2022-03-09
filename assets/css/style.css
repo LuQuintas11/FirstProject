@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Oswald:wght@200&display=swap');
-#header{
+#header {
     display: flex;
+}
+body {
+    
+    font-family: Hubballi, 'lucida Sans';
+    font-weight: 300;
+
 }
 
 #list{
@@ -10,11 +16,21 @@
 h1{
     font-size: 40px;
     font-family: Oswald, arial;
+    font-weight: 300px;
 }
 
 ul li{
     margin-top: 20px;
-    font-size: 20px;
+    
     display:inline-block;
-    font-family: Huballi, arial ;
+    
+}
+
+a:link {
+    text-decoration:none;
+   
+}
+
+#menu{
+    font-size: 170%;
 }
