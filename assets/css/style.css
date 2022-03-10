@@ -51,6 +51,7 @@ a:link {
     width: 50%;
     height: 500px;
     float: left;
+    color:aqua
     
 }
 
@@ -58,3 +59,21 @@ a:link {
     display: flex
    
 }*/
+
+
+/*footer*/
+
+.footer{
+    height: 250px;
+    background-color: black;
+    
+}
+
+.social-links{
+    text-align: center;
+
+}
+
+.social-links>li{
+    color:azure;
+}
