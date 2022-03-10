@@ -1,78 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Oswald:wght@200&display=swap');
-#header {
-    display: flex;
-}
-body {
-    
-    font-family: Hubballi, 'lucida Sans';
-    font-weight: 300;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Smooch+Sans:wght@100&display=swap');
 
-}
-
-
-#list{
-    margin-left: 50%;
+body{
+    font-family: Oswald, sans-serif;
+   
 }
 
 h1{
-    font-size: 40px;
-    font-family: Oswald, arial;
-    font-weight: 300px;
+    font-size: 280%;
 }
 
-ul li{
-    margin-top: 20px;
-    
-    display:inline-block;
-    
-}
+.menu {
+    display: flex;
+    list-style: none;
+  }
 
-a:link {
+
+.menu > li {
+    align-self: center;
+    padding: 10px 15px;
+}  
+  .push {
+      margin-left: auto;
+  }
+
+  a:link {
     text-decoration:none;
-   
+    color: grey;
+    font-size: 180%;
+    font-family: Smooch Sans, sans-serif;
+    font-weight: 800;
+
 }
 
-#menu{
-    font-size: 170%;
-}
-
-#piano{
-    background: url("../image/pexels-photo-1246437\ \(1\).jpg") no-repeat;
-    width: 50%;
-    height: 500px;
-    float: left;
+.note{
+    background-color: rgba(223, 217, 217, 0.4);
     
- 
-}
-
-#p1{
-    width: 50%;
-    height: 500px;
-    float: left;
-       
+    
 }
 
 
-/*footer*/
 
 
- #footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
 
-        
-      }
-     
+
+
+
    
  
     
-.social-link{
-    text-align: center;
-  
-}
 
