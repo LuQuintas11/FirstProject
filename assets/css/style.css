@@ -30,6 +30,11 @@ h1{
     font-family: Smooch Sans, sans-serif;
     font-weight: 800;
 
+
+}
+
+.menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
 }
 
 .note{
@@ -38,7 +43,28 @@ h1{
     
 }
 
+#section1{
+    position:relative;
+}
 
+#small-text{
+    height: 500px;
+    width: 500px;
+    color: #ffff;
+    font-weight: 800;
+    position:absolute;
+    left: 150px;
+    bottom: 30px;    
+
+}
+
+#image-piano{
+    background: linear-gradient( #6140f1ba, #a43aebcc), url("../image/pexels-photo-1246437\ \(1\).jpg") no-repeat;
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    
+} 
 
 
 
