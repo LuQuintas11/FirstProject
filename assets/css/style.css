@@ -34,3 +34,14 @@ a:link {
 #menu{
     font-size: 170%;
 }
+
+#piano{
+    background: url("../image/pexels-photo-1246437\ \(1\).jpg") no-repeat;
+    width: 50%;
+    height: 500px;
+    position: relative;
+    left:40%;
+    margin-left: 90px;
+   
+
+}
