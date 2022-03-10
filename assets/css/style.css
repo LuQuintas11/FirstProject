@@ -37,11 +37,11 @@ h1{
     border-bottom: 1px solid #3a3a3a;
 }
 
-.note{
+/*.note{
     background-color: rgba(223, 217, 217, 0.4);
     
     
-}
+}*/
 
 #section1{
     position:relative;
@@ -59,18 +59,22 @@ h1{
 }
 
 #image-piano{
-    background: linear-gradient( #6140f1ba, #a43aebcc), url("../image/pexels-photo-1246437\ \(1\).jpg") no-repeat;
+    background: linear-gradient( #4f4f50ba, #a43aebcc), url("../image/pexels-photo-1246437\ \(1\).jpg") no-repeat;
     height: 600px;
     width: 100%;
     background-size: cover;
     
 } 
 
-#main-footer{
-    display: flex;
+#social{
+   
     height: 150px;
     background-color: rgba(223, 217, 217, 0.4);
     
+}
+
+.social-link>li{
+    display: inline;
 }
 
 
