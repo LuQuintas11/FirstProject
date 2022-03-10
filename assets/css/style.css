@@ -39,9 +39,10 @@ a:link {
     background: url("../image/pexels-photo-1246437\ \(1\).jpg") no-repeat;
     width: 50%;
     height: 500px;
-    position:relative;
+    /*position:relative;
     left:40%;
-    margin-left: 90px;
+    margin-left: 90px;*/
+    float: left;
     
  
 }
@@ -49,10 +50,11 @@ a:link {
 #p1{
     width: 50%;
     height: 500px;
+    float: left;
     
 }
 
-#image-text div {
+/*#image-text div {
     display: flex
    
-}
+}*/
