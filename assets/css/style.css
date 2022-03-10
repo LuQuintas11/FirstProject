@@ -9,6 +9,7 @@ body {
 
 }
 
+
 #list{
     margin-left: 50%;
 }
@@ -39,9 +40,6 @@ a:link {
     background: url("../image/pexels-photo-1246437\ \(1\).jpg") no-repeat;
     width: 50%;
     height: 500px;
-    /*position:relative;
-    left:40%;
-    margin-left: 90px;*/
     float: left;
     
  
@@ -51,29 +49,30 @@ a:link {
     width: 50%;
     height: 500px;
     float: left;
-    color:aqua
-    
+       
 }
-
-/*#image-text div {
-    display: flex
-   
-}*/
 
 
 /*footer*/
 
-.footer{
-    height: 250px;
-    background-color: black;
-    
-}
 
-.social-links{
+ #footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
     text-align: center;
 
+        
+      }
+     
+   
+ 
+    
+.social-link{
+    text-align: center;
+  
 }
 
-.social-links>li{
-    color:azure;
-}
