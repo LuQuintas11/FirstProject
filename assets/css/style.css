@@ -66,16 +66,7 @@ h1{
     
 } 
 
-#social{
-   
-    height: 150px;
-    background-color: rgba(223, 217, 217, 0.4);
-    
-}
 
-.social-link>li{
-    display: inline;
-}
 
 
 
@@ -116,4 +107,35 @@ img{
 }
 
 
+
+.footer{
+    display: flex;
+    height: 300px;
+    background-color: rgba(223, 217, 217, 0.4);
+}
+
+.pianist{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+#social{
+    padding-left:100px;
+    padding-top: 100px;
+    position: absolute;
+    left:100px;
+}
+
+.social-link>li{
+    display: inline;
+   
+}
+
+.contact{
+    position:absolute;
+    right:100px;
+    padding-right: 100px;
+    padding-top: 100px;
+}
 
