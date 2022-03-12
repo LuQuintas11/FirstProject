@@ -79,7 +79,41 @@ h1{
 
 
 
-   
- 
+
+#testimonies{
+    margin: 150px 0 150px 0;
+
+}
+
+
+.image-testimonial{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;  
     
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+ 
+.main-wrap{
+     display:flex;
+}
+
+.content{
+    padding: 30px;
+}
+
+.main{
+    display: flex;
+}
+
+
 
