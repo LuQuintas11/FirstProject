@@ -131,6 +131,7 @@ img{
     display: inline;
    
 }
+/* Contact Me section*/
 
 .contact{
     position:absolute;
@@ -139,3 +140,68 @@ img{
     padding-top: 100px;
 }
 
+#contact-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-column{
+     
+    background-color: rgb(127, 255, 212);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.block-content{
+  text-align: center;
+  padding: 15px 15px 15px 15px;
+}
+
+
+
+
+/* check this*/
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 150px;
+    margin-top: 150px
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
