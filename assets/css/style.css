@@ -164,8 +164,10 @@ img{
 
 
 /* check this*/
-* {
-    box-sizing: border-box;
+
+
+  .row{
+      display: flex;
   }
   
   /* Style inputs */
@@ -204,4 +206,12 @@ img{
     content: "";
     display: table;
     clear: both;
-  }
+  } 
+
+
+  /*classes html styling*/
+
+
+.table{
+    border: 1px solid #3a3a3a;
+}
