@@ -67,16 +67,17 @@ a:link {
 }*/
 
 
-#section1{
+/*#section1{
     position:relative;
-}
+}*/
 
 #small-text{
+    display: flex;
     height: 500px;
     width: 500px;
-    color: #ffff;
+    color: white ;
     font-weight: 800;
-    position:absolute;
+   /* position:absolute;*/
     left: 150px;
     bottom: 30px;    
 
