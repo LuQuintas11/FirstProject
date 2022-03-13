@@ -7,7 +7,7 @@ body{
 h1{
     font-size: 220%;
     position: relative;
-    font-family: Cormorant Garamond;
+ 
 }
 
 span{
@@ -67,19 +67,28 @@ a:link {
 }*/
 
 
-/*#section1{
+#section1{
     position:relative;
-}*/
+}
+
 
 #small-text{
-    display: flex;
+    
     height: 500px;
     width: 500px;
     color: white ;
     font-weight: 800;
-   /* position:absolute;*/
+    position:absolute;
     left: 150px;
     bottom: 30px;    
+
+}
+
+#video{
+     position:absolute;
+     bottom: 30px;
+     right: 150px;
+     top:100px
 
 }
 
@@ -137,12 +146,7 @@ img{
     background-color: rgba(223, 217, 217, 0.4);
 }
 
-.pianist{
-    position: relative;
-    margin: 0 auto;
-    padding-top: 50px;
 
-}
 #social{
     padding-left:100px;
     padding-top: 100px;
@@ -165,10 +169,15 @@ img{
     padding-top: 100px;
 }
 
-#contact-me {
+/*#contact-me {
     display: flex;
     align-items: center;
     justify-content: center;
+}*/
+
+#icon-about{
+     padding-left: 20px;
+
 }
 
 .block-column{
