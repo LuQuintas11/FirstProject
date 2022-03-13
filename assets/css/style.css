@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Smooch+Sans:wght@100&display=swap');
 
-/*body{
+body{
     font-family: Oswald, sans-serif;
    
-}*/
+}
 
 h1{
     font-size: 280%;
@@ -228,13 +228,37 @@ img{
   /*classes html styling*/
 
 
-.table{
-    border: 1px solid #3a3a3a;
+#classes{
+    display: flex;
+    margin-bottom: 30px;
 }
 
-.classes {
-  
-    color: #45a049;
+
+#classes-p {
+    font-size: 150%;
+    text-align: center;
+    margin-top: 50px;
+    
+}
 
 
+
+#aside{
+
+    border: 1px solid;
+}
+
+#learn-about{
+    margin:20px
+
+}
+
+aside > p{
+    width: 300px;
+    padding: 15px
+}
+
+
+.aside-text{
+   padding: 20px;
 }
