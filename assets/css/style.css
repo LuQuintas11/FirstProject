@@ -178,6 +178,12 @@ img{
     background-color: rgba(223, 217, 217, 0.4);
 }
 
+#footer i{
+    font-size: 100%;
+    margin:1%;
+    padding:5%;
+    color:#466ace;
+}
 
 #social{
     padding-left:100px;
@@ -186,8 +192,7 @@ img{
 }
 
 #social-link>li{
-    display: inline;
-   
+    display: inline;  
 }
 
 #location{
