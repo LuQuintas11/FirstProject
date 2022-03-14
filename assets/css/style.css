@@ -8,11 +8,12 @@ body{
 
 /*heading and nav*/
 h1{
-    font-size: 220%;
+    font-size: 180%;
     position: relative;
     font-weight: 350;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
+    
  
 }
 
@@ -106,7 +107,14 @@ a:link {
     
 } 
 
-/*Review*/
+
+#piano-lessons{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+/*Reviews*/
 
 #testimonies{
     margin: 150px 0 150px 0;
@@ -139,6 +147,12 @@ img{
 .content{
     padding: 30px;
 }
+
+.content > p{
+     font-size: 150%;
+
+}
+
 
 #main{
     display: flex;
@@ -297,6 +311,7 @@ aside > p{
 .aside-text{
    padding: 20px;
 }
+
 
 
 
