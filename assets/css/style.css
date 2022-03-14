@@ -117,7 +117,7 @@ a:link {
 /*Reviews*/
 
 #testimonies{
-    margin: 150px 0 150px 0;
+   
 
 }
 
@@ -248,26 +248,27 @@ img{
   
   /* Style the container/contact section */
   .container {
-   
     padding: 10px;
     margin-bottom: 150px;
-    margin-top: 150px
+    margin-top: 150px;
+    
   }
   
   /* Create two columns that float next to eachother */
   .column {
-    float: left;
+    /*float: left;*/
     width: 50%;
     margin-top: 6px;
     padding: 20px;
+    text-align: center;
   }
   
   /* Clear floats after the columns */
-  .row:after {
+  /*.row:after {
     content: "";
     display: table;
     clear: both;
-  } 
+  } */
 
 
   /*classes html styling*/
