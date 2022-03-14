@@ -115,7 +115,7 @@ a:link {
 
 
 
-#image-testimonial{
+.image-testimonial{
     height: 200px;
     width: 200px;
     padding: 10px;
@@ -132,11 +132,11 @@ img{
     border-radius: 50%;
 }
  
-#main-wrap{
+.main-wrap{
      display:flex;
 }
 
-#content{
+.content{
     padding: 30px;
 }
 
@@ -146,7 +146,7 @@ img{
 
 /*footer*/
 
-.footer{
+#footer{
     display: flex;
     height: 300px;
     background-color: rgba(223, 217, 217, 0.4);
@@ -160,7 +160,7 @@ img{
     left:100px;
 }
 
-.social-link>li{
+#social-link>li{
     display: inline;
    
 }
@@ -168,7 +168,7 @@ img{
 
 /* Contact Me section*/
 
-.contact{
+#contact{
     position:absolute;
     right:100px;
     padding-right: 100px;
