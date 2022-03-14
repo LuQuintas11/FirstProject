@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Oswald:wght@200&family=Smooch+Sans:wght@100&display=swap');
+
 body{
+
     font-family: Oswald, sans-serif;
    
 }
 
+/*heading and nav*/
 h1{
     font-size: 220%;
     position: relative;
     font-weight: 350;
+    text-transform: uppercase;
+    letter-spacing: 4px;
  
 }
 
@@ -18,25 +23,25 @@ span{
     font-size: 70%;
 }
 
-.note{
+#note{
     background-color:rgba(223, 217, 217, 0.4);
     height: 150px;
     margin-bottom: 30px;
 }
 
-.menu {
+#menu {
     display: flex;
     list-style: none;
   }
 
 
-.menu > li {
+#menu > li {
     align-self: center;
     padding: 10px 15px;
 }  
   
 
-.push {
+#push {
       margin-left: auto;
 
 
@@ -101,7 +106,7 @@ a:link {
     
 } 
 
-
+/*Review*/
 
 #testimonies{
     margin: 150px 0 150px 0;
@@ -110,7 +115,7 @@ a:link {
 
 
 
-.image-testimonial{
+#image-testimonial{
     height: 200px;
     width: 200px;
     padding: 10px;
@@ -127,15 +132,15 @@ img{
     border-radius: 50%;
 }
  
-.main-wrap{
+#main-wrap{
      display:flex;
 }
 
-.content{
+#content{
     padding: 30px;
 }
 
-.main{
+#main{
     display: flex;
 }
 
