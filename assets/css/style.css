@@ -249,18 +249,18 @@ img{
   /* Style the container/contact section */
   .container {
     padding: 10px;
-    margin-bottom: 150px;
-    margin-top: 150px;
+    margin-bottom: 80px;
+    margin-top: 80px;
     
   }
   
   /* Create two columns that float next to eachother */
   .column {
-    /*float: left;*/
+  /* float: left;*/
     width: 50%;
-    margin-top: 6px;
     padding: 20px;
-    text-align: center;
+    margin: 0 auto;;
+  
   }
   
   /* Clear floats after the columns */
