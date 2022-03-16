@@ -97,9 +97,15 @@ a:link {
 
 #section1{
     position:relative;
+    overflow: hidden;
 }
 
-
+#flex-box{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
 
 
 #small-text{ 
@@ -107,17 +113,12 @@ a:link {
     width: 500px;
     color: white ;
     font-weight: 800;
-    position:absolute;
-    left: 150px;
-    bottom: 30px; 
+   
 
 }
 
 #video{
-     position:absolute;
-     bottom: 30px;
-     right: 150px;
-     top:100px
+   
 
 }
 
@@ -164,16 +165,21 @@ img{
  
 #main-wrap1{
      display: flex;
+     flex-direction: row;
      margin-left: 10px;
      margin-right: 10px;
+     width: 800px;
+     height: 100px;
  
 }
 
 #main-wrap2{
     display: flex;
+    flex-direction: row;
     margin-left: 10px;
     margin-right: 10px;
-
+    width: 800px;
+    height: 100px;
 }
 
 
@@ -192,7 +198,10 @@ img{
 }
 
 #main{
+
     display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 /*footer*/
@@ -371,7 +380,7 @@ aside > p{
  }
   #small-text{
        
-      margin-left: 200px;
+  margin-left: 200px;
 
    
   }
@@ -388,12 +397,13 @@ aside > p{
     }     
     
 
-  #menu{
+  #main-wrap1{
       position: relative;
   }
   #main-wrap2{
        position: absolute;
-       top: 1200px
+      
   }
 
 }
+
