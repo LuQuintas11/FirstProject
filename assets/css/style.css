@@ -102,8 +102,7 @@ a:link {
 
 
 
-#small-text{
-    
+#small-text{ 
     height: 500px;
     width: 500px;
     color: white ;
@@ -163,12 +162,22 @@ img{
     border-radius: 50%;
 }
  
-.main-wrap{
-     display:flex;
+#main-wrap1{
+     display: flex;
      margin-left: 10px;
      margin-right: 10px;
  
 }
+
+#main-wrap2{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+
 
 .content{
     padding: 30px;
@@ -190,6 +199,9 @@ img{
 
 #footer{
     display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
     height: 300px;
     background-color: rgba(223, 217, 217, 0.4);
 }
@@ -202,10 +214,8 @@ img{
 }
 
 #social{
-    padding-left: 50px;
-    padding-right: 100px;
-    padding-top: 100px;
-   
+padding-right: 400px;
+ 
 }
 
 #social-link>li{
@@ -213,8 +223,7 @@ img{
 }
 
 #location{
-    margin: 0 auto;
-    margin-top: 100px
+
 }
 
 #location-icon{
@@ -222,10 +231,8 @@ img{
 }
 
 #contact{
- 
-    padding-right: 50px;
-    padding-top: 100px;
-    padding-left: 100px;
+
+    padding-left: 400px;
 }
 
 
@@ -351,4 +358,42 @@ aside > p{
 
 
 
+@media screen and (max-width: 1500px) {
 
+
+ #video{
+  
+    float:left;
+    top:250px;
+    
+    
+    
+ }
+  #small-text{
+       
+      margin-left: 200px;
+
+   
+  }
+
+
+}
+
+@media screen and (max-width:1200px){
+    #testimonies{
+        width: 65%;
+        height: 900px;
+        margin: 0 auto;
+
+    }     
+    
+
+  #menu{
+      position: relative;
+  }
+  #main-wrap2{
+       position: absolute;
+       top: 1200px
+  }
+
+}
