@@ -369,8 +369,21 @@ aside > p{
        flex-direction: column;
        align-items: center;
        justify-content: center;
-
    }
+
+   #small-text{
+       margin: 0;
+       padding-top: 100px;
+       width: 70%;
+   }
+
+   #video{
+       margin:0;
+       padding-bottom: 90px;
+       
+   }
+
+   
     
 }
 
