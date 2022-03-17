@@ -95,41 +95,44 @@ a:link {
 }*/
 
 
-#section1{
-    position:relative;
-    overflow: hidden;
-}
-
-#flex-box{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    
-}
 
 
-#small-text{ 
-    height: 500px;
-    width: 500px;
-    color: white ;
-    font-weight: 800;
-   
 
-}
 
-#video{
-   
-
-}
 
 #image-piano{
     background: linear-gradient( #4f4f50ba, #a43aebcc), url("../image/pexels-photo-1246437\ \(1\).jpg") no-repeat;
     height: 600px;
     width: 100%;
-    background-size: cover;
+    background-size: cover;  
+    /*display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;*/
+    
     
 } 
 
+#flex-box{
+    /*display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;*/
+
+}
+
+
+#small-text{ 
+    height: 200px;
+    width: 200px;
+    color: white ;
+    font-weight: 800;
+}
+
+
+
+
+/*Reviews*/
 
 #piano-lessons{
     text-align: center;
@@ -137,7 +140,6 @@ a:link {
 
 }
 
-/*Reviews*/
 
 #testimonies{
     margin-top: 50px;
@@ -367,43 +369,7 @@ aside > p{
 
 
 
-@media screen and (max-width: 1500px) {
 
 
- #video{
-  
-    float:left;
-    top:250px;
-    
-    
-    
- }
-  #small-text{
-       
-  margin-left: 200px;
 
-   
-  }
-
-
-}
-
-@media screen and (max-width:1200px){
-    #testimonies{
-        width: 65%;
-        height: 900px;
-        margin: 0 auto;
-
-    }     
-    
-
-  #main-wrap1{
-      position: relative;
-  }
-  #main-wrap2{
-       position: absolute;
-      
-  }
-
-}
 
