@@ -126,6 +126,8 @@ a:link {
 
 #video{
     margin-top: 200px;
+    margin-left:50px;
+    margin-right: 50px;
     
 }
 iframe{
@@ -378,15 +380,14 @@ aside > p{
    #small-text{
        margin: 0;
        padding-top: 100px;
-       width: 70%;
+       width: 50%;
       
    }
 
 
 
    #video{
-       width:70%;
-    margin:0;
+        margin:0;
    
 }
 
@@ -424,7 +425,7 @@ aside > p{
     
     
 }
-/*@media  screen and ( max-width: 950px) {
+@media  screen and ( max-width: 950px) {
 
     #image-piano{
         display: flex;
@@ -436,7 +437,7 @@ aside > p{
     #small-text{
         margin: 0;
         padding-top: 100px;
-        width: 50%;
+        width: 70%;
        
     }
  
@@ -451,7 +452,7 @@ aside > p{
     }
  
  
-    #main{
+    /*#main{
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -469,18 +470,18 @@ aside > p{
 
     .image-testimonial{
         margin:0 auto;
-    }
+    }*/
  
    
  
- 
+}
      
      
 
 
 
 
-*/
+
 
 
 
@@ -531,6 +532,11 @@ aside > p{
         height: 50%;
         
     }
+ 
+    #main-wrap-2{
+        padding-top: 5px;
+        }
+    
 
     .image-testimonial{
         margin:0 auto;
@@ -568,7 +574,7 @@ aside > p{
  
     iframe{
        
-            width: 350px;
+            width: 100%;
             height: 290px;
             margin:0;
            
@@ -590,6 +596,9 @@ aside > p{
         flex-direction: column;
         height: 50%;
         
+    }
+    #main-wrap-2{
+    padding-top: 5px;
     }
 
     .image-testimonial{
