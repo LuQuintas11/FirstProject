@@ -110,9 +110,8 @@ a:link {
 
 #flex-box{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    
+  
 }
 
 #small-text{ 
@@ -125,10 +124,15 @@ a:link {
 }
 
 
-iframe{
+#video{
+    margin-top: 200px;
     
+}
+iframe{
     width: 560px;
-    height: 290px;}
+    height: 290px;
+  
+}
     
 
 
@@ -378,6 +382,16 @@ aside > p{
       
    }
 
+
+
+   #video{
+       width:70%;
+    margin:0;
+   
+}
+
+
+
    iframe{
        
     width: 560px;
@@ -410,8 +424,7 @@ aside > p{
     
     
 }
-/*
-@media  screen and ( max-width: 950px) {
+/*@media  screen and ( max-width: 950px) {
 
     #image-piano{
         display: flex;
@@ -461,13 +474,13 @@ aside > p{
    
  
  
-     */
+     
      
 
 
 
 
-
+*/
 
 
 
@@ -489,13 +502,16 @@ aside > p{
        
     }
  
+    #video{
+        width: 70%;
+        margin:30px;
+    }
     iframe{
        
-            width: 500px;
+            width: 100%;
             height: 290px;
             margin:0;
-            padding-bottom: 100px;
-            padding-top: 50px;
+            padding-top:20px
         }
 
     
