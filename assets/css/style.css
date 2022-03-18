@@ -103,15 +103,20 @@ a:link {
     height: 600px;
     width: 100%;
     background-size: cover;   
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  
 
     
 } 
 
+#flex-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 #small-text{ 
-    height: 500px;
+    
     width: 50%;
     margin-top: 200px;
     margin-left: 50px;
@@ -120,12 +125,8 @@ a:link {
 }
 
 
-#video{
-    width: 50%;
-  
-}
-
 iframe{
+    
     width: 560px;
     height: 290px;}
     
@@ -363,7 +364,7 @@ aside > p{
 
 @media  screen and ( max-width: 1250px) {
 
-   #image-piano{
+   #flex-box{
        display: flex;
        flex-direction: column;
        align-items: center;
@@ -373,22 +374,16 @@ aside > p{
    #small-text{
        margin: 0;
        padding-top: 100px;
-       width: 50%;
+       width: 70%;
       
-   }
-   
-   #video{
-       width: 50%;
    }
 
    iframe{
        
     width: 560px;
-       height: 290px;
-    
-     margin:0;
-        padding-bottom: 100px;
-        padding-top: 50px;
+    height: 290px;
+    padding-bottom: 100px;
+    padding-top: 50px;
     }
 
 
@@ -481,7 +476,7 @@ aside > p{
 
 @media  screen and ( max-width: 768px) {
 
-    #image-piano{
+    #flex-box{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -489,9 +484,8 @@ aside > p{
     }
  
     #small-text{
-        margin: 0;
-       
-        width: 50%;
+        margin: 0;  
+        width: 70%;
        
     }
  
@@ -550,13 +544,15 @@ aside > p{
     #small-text{
         margin: 0;
         padding-top: 100px;
-        width: 50%;
+        width: 70%;
        
     }
+
+   
  
     iframe{
        
-            width: 500px;
+            width: 350px;
             height: 290px;
             margin:0;
            
