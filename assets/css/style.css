@@ -215,8 +215,7 @@ img{
     height: 300px;
     display: flex;
     align-items: center;
-    flex-direction: row;
-    justify-content: space-evenly; 
+    justify-content: space-around; 
     background-color: rgba(223, 217, 217, 0.4);
 }
 
@@ -228,22 +227,24 @@ img{
 }
 
 #social{
-margin-right: 50px;
+margin: 20px;
  
 }
 
 #social-link>li{
     display: inline;  
 }
-
+ 
+#location{
+    margin: 20px
+}
 
 #location-icon{
   padding: 100px;
 }
 
 #contact{
-
-    margin-left: 50px;
+    margin: 20px;
 }
 
 
@@ -451,6 +452,11 @@ aside > p{
         padding-top: 50px;
     }
  
+
+
+    #footer{
+        font-size: small;
+    }
  
     /*#main{
      display: flex;
@@ -543,6 +549,10 @@ aside > p{
     }
  
    
+    #footer{
+        font-size: small;
+       
+    }
  
  
      
@@ -607,7 +617,12 @@ aside > p{
  
    
  
- 
+ #footer{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
      
      
  }
