@@ -213,30 +213,31 @@ img{
 
 #footer{
     height: 300px;
-    display: flex;
+    /*display: flex;
     align-items: center;
-    justify-content: space-around; 
+    justify-content: space-around; */
     background-color: rgba(223, 217, 217, 0.4);
 }
 
 #footer i{
     font-size: 100%;
-    margin:1%;
+    margin:0 auto;
     padding:5%;
-    color:#466ace;
+    color:#5e626d;
+    display: inline;
 }
 
 #social{
-margin: 20px;
+    float: right;
+    width: 33%;
+    margin: 20px;
  
 }
 
-#social-link>li{
-    display: inline;  
-}
- 
+
 #location{
-    margin: 20px
+    margin:0 auto;
+   
 }
 
 #location-icon{
@@ -244,6 +245,8 @@ margin: 20px;
 }
 
 #contact{
+    width: 33%;
+    float: left;
     margin: 20px;
 }
 
