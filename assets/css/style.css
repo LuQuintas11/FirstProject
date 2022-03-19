@@ -213,41 +213,48 @@ img{
 
 #footer{
     height: 300px;
-    /*display: flex;
+    display: flex;
     align-items: center;
-    justify-content: space-around; */
+    justify-content: space-around; 
     background-color: rgba(223, 217, 217, 0.4);
+   
 }
 
 #footer i{
     font-size: 100%;
-    margin:0 auto;
     padding:5%;
-    color:#5e626d;
+    color:#2f4da0;
+
+}
+
+#footer li{
     display: inline;
+    
 }
 
 #social{
-    float: right;
-    width: 33%;
-    margin: 20px;
- 
+    text-align: center;
+    padding-top: 80px;
+   
+   
 }
-
-
 #location{
-    margin:0 auto;
+    padding-top: 80px;
+   text-align: center;
+  
    
 }
 
-#location-icon{
-  padding: 100px;
-}
 
 #contact{
-    width: 33%;
-    float: left;
-    margin: 20px;
+
+  
+    padding-top: 80px;
+    
+   
+  
+   
+    
 }
 
 
@@ -625,8 +632,21 @@ aside > p{
      flex-direction: column;
      align-items: center;
      justify-content: center;
+    
+    
  }
-     
+   
+#social{
+    padding-top: 5px;
+}
+
+ #location{
+     padding-top:20px;
+ }
+ #contact{
+     padding-top: 20px;
+ }
+
      
  }
  
