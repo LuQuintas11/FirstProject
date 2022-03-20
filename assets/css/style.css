@@ -435,7 +435,7 @@ aside{
        padding-top:150px
        
    }
- 
+
 
     
     
@@ -496,6 +496,12 @@ aside{
     li span {
         position: relative;
         left: 0;
+    }
+
+
+    .column{
+        width: 70%;
+
     }
     
  
