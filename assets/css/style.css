@@ -15,7 +15,6 @@ body{
 /*heading and nav*/
 h1{
     font-size: 180%;
-    position: relative;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -25,11 +24,12 @@ h1{
 
 span{
     font-weight: 500;
-    position: absolute;
-    left:0;
     top: 45px;
-    font-size: 70%;
-
+    font-size: 170%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-right: auto;
+  
 }
 
 #note{
@@ -487,8 +487,16 @@ aside{
             
 
      }
- 
-   
+
+     li h1{
+         position:absolute;
+
+     }
+    li span {
+        position: relative;
+        left: 0;
+    }
+    
  
 }
      
@@ -598,7 +606,7 @@ aside{
        
        
        
-    }
+    
 
     iframe{
        
@@ -654,6 +662,39 @@ aside{
      padding-top: 20px;
  }
 
-     
+
+ nav{
+     font-size: small;
  }
- 
+
+
+ li h1{
+    position:absolute;
+
+}
+li span {
+   position: relative;
+   left: 0;
+}
+
+    
+}
+
+@media screen and (max-width: 550px) {
+
+
+    nav{
+      font-size: x-small;
+    }
+    li h1{
+        position:absolute;
+
+    }
+   li span {
+       position: relative;
+       left: 0;
+   }
+
+
+    
+}
