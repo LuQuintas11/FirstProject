@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Oswald:wght@200&family=Smooch+Sans:wght@100&display=swap');
-/*style="border:none;overflow:hidden"*/
-*{
+
+/* *{
     margin:0;
     padding:0;
     border:none;
-}
+} */
 
 body{
 
@@ -86,11 +86,6 @@ a:link {
 
 }
 
-/*.note{
-    background-color: rgba(223, 217, 217, 0.4);
-    
-    
-}*/
 
 
 
@@ -119,7 +114,7 @@ a:link {
     width: 50%;
     margin-top: 200px;
     margin-left: 50px;
-    color: white ;
+    color: rgb(255, 253, 253) ;
     font-weight: 800;
 }
 
@@ -510,6 +505,7 @@ aside{
         margin: 0;  
         width: 70%;
        
+
     }
  
     #video{
@@ -569,7 +565,7 @@ aside{
 
  @media  screen and ( max-width: 680px) {
 
-    #image-piano{
+    #flex-box{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -579,12 +575,12 @@ aside{
     #small-text{
         margin: 0;
         padding-top: 100px;
-        width: 70%;
+        width: 100%;
+       
+       
        
     }
 
-   
- 
     iframe{
        
             width: 100%;
@@ -593,8 +589,7 @@ aside{
            
         }
 
-    
- 
+  
     #main{
      display: flex;
      flex-direction: column;
