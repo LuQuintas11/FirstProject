@@ -13,12 +13,13 @@ body{
 }
 
 /*heading and nav*/
-h1{
+ h1{
     font-size: 180%;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 3px;
-    
+    padding-top: 10px;
+    padding-left: 10px;
  
 }
 
@@ -33,17 +34,11 @@ span{
 }
 
 #note{
-   /* background-color:rgba(240, 238, 238, 0.4);*/
-    height: 100px;
-    margin-bottom: 30px;
-}
-
-#menu {
     display: flex;
+    height: 500px;
+    margin-bottom: 30px;
   
-    list-style: none;
-  }
-
+}
 
 #menu > li {
     align-self: center;
@@ -51,11 +46,7 @@ span{
     
 } 
 
-#menu a {
-    text-decoration: none;
-    color: #3a3a3a ;
-    font-weight: 200;
-}
+
 
 
 #menu a:hover {
