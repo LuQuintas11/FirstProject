@@ -610,10 +610,7 @@ p>a:link {
     top: 40px; 
     width: calc(100%-40%);
     padding: 20px 0; 
-
     height: 150px;
-     /* overflow-y: auto; */
-
     right:0;
     transition: left 0.3s;
 }
@@ -652,8 +649,15 @@ span {
 
  }
 
+#aside{
+    width: 70%;
+}
 
-
+#aside p{
+    width: 80%;
+    height: auto;
+   
+}
 
 
  }
