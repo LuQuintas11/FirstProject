@@ -290,37 +290,66 @@ img{
   /*classes html styling*/
 
 
+
+.piano-theory{
+    
+    list-style-type: none;
+    
+}
+.piano-theory span {
+    font-weight: 900;
+    font-size: 100%;
+    letter-spacing: 0ch;
+    text-transform: none;
+    
+  
+    
+}
+
+
 #classes{
     display: flex;
     
 }
 
+.piano-classes{
+    margin-top: 40px;
+}
+
+
 
 #aside{
-    border: 1px solid;
-    background-color: rgb(129, 86, 170, 0.4);
-    margin-bottom: 20px;
+    
+    background-color: rgba(223, 217, 217, 0.7);
+    margin-top:120px;
     margin-left: 10px;
+    height: 500px;
+    width: auto;
 }
 
-aside{
+ aside{
     padding: 10px;
-}
+    margin:0 auto; 
+
+    
+} 
 
 #aside p {
     width: 300px ;
     height: 100px;
     padding: 20px;
-    font-size: 100%;
+    
 }
 
 #aside h3{
-    padding: 10px;
+    padding: 20px;
 }
 
 #learn-about{
-    margin-top:50px;
+    margin-top:70px;
     margin-bottom: 50px;
+    margin-left:10px;
+   
 }
 
 
@@ -459,7 +488,7 @@ p>a:link {
 
 
 #aside{
-        
+    
     margin: 0 auto;
     margin-top:10px;       
 
@@ -467,11 +496,13 @@ p>a:link {
 
 #learn-about{
     width: 70%;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
-    
-  
+
+
+
+
  
 }
 
@@ -656,9 +687,7 @@ span {
 
  }
 
-#aside{
-    width: 70%;
-}
+
 
 #aside p{
     width: 80%;
