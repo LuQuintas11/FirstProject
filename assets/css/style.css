@@ -42,19 +42,16 @@ span{
 
 #menu-nav{
     display: flex;
-    
     align-items: center;
     margin: 0;
     background-color: rgba(223, 217, 217, 0.7);
     position: absolute;
-    top: 40px; 
+    top: 70px; 
     width: calc(100%-40px);
     padding: 20px 0; 
-    height: 150px;
+    height: 20px;
     right:0;
-    transition: left 0.3s;
 }
-
 #menu-nav li{
     
     list-style: none;
@@ -327,8 +324,8 @@ aside{
 }
 
 
-h2{
-    font-size: 1000%;
+#main-heading{
+    font-size: 150%;
     text-align: center;
    
     
@@ -617,12 +614,12 @@ p>a:link {
     margin: 0;
     background-color: rgba(223, 217, 217, 0.7);
     position: absolute;
-    top: 40px; 
+    top: 80px; 
     width: calc(100%-40px);
     padding: 20px 0; 
-    height: 150px;
+    height: 20px;
     right:0;
-    transition: left 0.3s;
+    
 }
 
     a:link{
