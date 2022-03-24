@@ -35,7 +35,7 @@ span{
 }
 
 #nav{
-   
+     background-color: rgba(230, 208, 230, 0.4); 
     height: 100px;
     margin-bottom: 40px;
   
@@ -382,6 +382,8 @@ p>a:link {
 
 /*footer*/
 
+
+
 #footer{
  
     display: flex;
@@ -412,13 +414,15 @@ p>a:link {
 
 #social{
     text-align: center;
-    padding-top: 80px;
+    padding-top: 50px;
+
    
    
 }
 #location{
     text-align: center;
-    padding-top: 80px;
+    padding-top: 50px;
+   
    
   
    
@@ -426,7 +430,8 @@ p>a:link {
 
 
 #contact{
-    padding-top: 80px;
+    padding-top: 50px;
+  
    
  
 }
