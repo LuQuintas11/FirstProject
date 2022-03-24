@@ -1,32 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Oswald:wght@200&family=Smooch+Sans:wght@100&display=swap');
 
- *{
-    margin:0;
-    padding:0;
-    border:none;
-} 
-
-body{
-
-    font-family: Oswald, sans-serif;
-    
-   
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
+body {
+    font-family: Oswald, sans-serif;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(12, 11, 11);
+    font-size: 180%;
+    font-family: Smooch Sans, sans-serif;
+    font-weight: 800;
+}
+
+
 /*heading and nav*/
- h1{
+h1 {
     font-size: 180%;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-left: 10px;
- 
-    
- 
+
 }
 
-span{
-    
+span {
+
     font-weight: 500;
     font-size: 170%;
     text-transform: uppercase;
@@ -34,179 +39,137 @@ span{
     margin-left: 10px;
 }
 
-#nav{
-     background-color: rgba(230, 208, 230, 0.4); 
+
+nav {
+    background-color: rgba(230, 208, 230, 0.4);
     height: 100px;
     margin-bottom: 40px;
-  
 }
 
-#menu-nav{
+.menu-nav {
     display: flex;
     align-items: center;
     margin: 0;
     background-color: rgba(223, 217, 217, 0.7);
     position: absolute;
-    top: 70px; 
+    top: 70px;
     width: calc(100%-40px);
-    padding: 20px 0; 
+    padding: 20px 0;
     height: 20px;
-    right:0;
+    right: 0;
 }
-#menu-nav li{
-    
+
+.menu-nav li {
+
     list-style: none;
     align-self: center;
     padding: 10px 15px;
- 
-}
-/* #push{
-    margin-left: auto;
-} */
-
-
-
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a ;
 
 }
 
- #menu{
-    margin-right: auto;
-} 
 
-
-
-
-
-a:link {
-    text-decoration:none;
-    color: rgb(12, 11, 11);
-    font-size: 180%;
-    font-family: Smooch Sans, sans-serif;
-    font-weight: 800;
-    
-
-} 
-
-
-#menu a:hover{
+.menu-nav a:hover {
     border-bottom: 1px solid #3a3a3a;
 
 }
 
 
-
-
-
 /*Section 1: Piano image, video and small text "A bit about me"*/
 
 
-#image-piano{
-    background: linear-gradient( #4f4f50ba, #a43aebcc), url("../image/Hands-Piano.jpg") no-repeat;
+#image-piano {
+    background: linear-gradient(#4f4f50ba, #a43aebcc), url("../image/Hands-Piano.jpg") no-repeat;
     height: 600px;
     width: 100%;
-    background-size: cover;   
-   
-} 
+    background-size: cover;
 
-#flex-box{
+}
+
+.about-me-section {
     display: flex;
     height: 100%;
-    
+
 }
 
-#small-text{
+.small-text {
     width: 50%;
-    margin-top: 100px;
-    margin-left: 50px;
-    color: rgb(255, 253, 253) ;
-    font-weight: 800;
-    font-size: 110%;
+    margin: 100px 0 0 50px;
+    color: rgb(255, 253, 253);
+    font-weight: 500;
+    font-size: 120%;
 }
 
-/* video styling */
-
-#video{
+.video {
     width: 50%;
-    margin-top: 100px;
-    margin-left:50px;
-    margin-right: 50px; 
-    
+    margin: 100px 50px 0 50px;
+
 }
 
-
- iframe{
+iframe {
     width: 100%;
     height: 100%;
+}
 
-} 
-    
 
 /*Reviews*/
 
 
-#review-container{
+#review-container {
     display: flex;
     margin-left: 20px;
-   
-    
-   
+
 }
 
-#piano-lessons{
+#piano-lessons {
     text-align: center;
     margin-bottom: 50px;
 
 }
 
 
-#review-section{
-    margin-top: 50px;
-    margin-bottom: 150px;
+#review-section {
+    margin-top: 50px 0 150px 0;
    
-
 }
 
-.image-review-container{
+.image-review-container {
     height: 200px;
     width: 200px;
     padding: 10px;
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
-    border-radius: 50%;  
-    
+    border-radius: 50%;
+
 }
+
 /* Review Image*/
- img{
+img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-} 
+}
 
 #review-1,
-#review-2{
-     display: flex;
-     flex-direction: row;
-     width: 800px;
-     height: 100px;
+#review-2 {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 100px;
 }
 
-.review-content{
+.review-content {
     padding: 30px;
-   
+
 }
 
-.review-content > p{
-     font-size: 120%;
-    
+.review-content>p {
+    font-size: 120%;
+
 }
 
 
 /* Contact Me section*/
-
-
 
 #contact-me {
     display: flex;
@@ -214,13 +177,13 @@ a:link {
     justify-content: center;
 }
 
-#icon-about{
-     padding-left: 20px;
+#icon-about {
+    padding-left: 20px;
 
 }
 
-.block-column{
-     
+.block-column {
+
     background-color: rgb(127, 255, 212);
     height: 200px;
     width: 200px;
@@ -228,13 +191,13 @@ a:link {
 
 }
 
-.block-content{
-  text-align: center;
-  padding: 15px 15px 15px 15px;
+.block-content {
+    text-align: center;
+    padding: 15px 15px 15px 15px;
 }
 
 
-#map{
+#map {
     background-size: cover;
     width: 100%;
     height: 450px;
@@ -247,128 +210,131 @@ a:link {
 /* check this*/
 
 
-  .row{
-      display: flex;
-  }
-  
-  /* Style inputs */
-  input[type=text], select, textarea {
+.row {
+    display: flex;
+}
+
+/* Style inputs */
+input[type=text],
+select,
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
+}
 
-  
-  input[type=submit]:hover {
+
+input[type=submit]:hover {
     background-color: #45a049;
-  }
-  
-  /* Style the container/contact section */
-  .container {
+}
+
+/* Style the container/contact section */
+.container {
     padding: 10px;
     margin-bottom: 80px;
     margin-top: 80px;
-    
-  }
-  
-  /* Create two columns that float next to eachother */
-  .column {
+
+}
+
+/* Create two columns that float next to eachother */
+.column {
     width: 50%;
     padding: 20px;
     margin: 0 auto;
-  
-  }
-  
 
-  /*classes html styling*/
-
-
-
-.piano-theory{
-    
-    list-style-type: none;
-    
 }
+
+
+/*classes html styling*/
+
+
+
+.piano-theory {
+
+    list-style-type: none;
+
+}
+
 .piano-theory span {
     font-weight: 900;
     font-size: 100%;
     letter-spacing: 0ch;
     text-transform: none;
-    
-  
-    
+
+
+
 }
 
 
-#classes{
+#classes {
     display: flex;
-    
+
 }
 
-.piano-classes{
+.piano-classes {
     margin-top: 40px;
 }
 
 
 
-#aside{
-    
+#aside {
+
     background-color: rgba(223, 217, 217, 0.7);
-    margin-top:120px;
+    margin-top: 120px;
     margin-left: 10px;
     height: 500px;
     width: auto;
 }
 
- aside{
+aside {
     padding: 10px;
-    margin:0 auto; 
+    margin: 0 auto;
 
-    
-} 
+
+}
 
 #aside p {
-    width: 300px ;
+    width: 300px;
     height: 100px;
     padding: 20px;
-    
+
 }
 
-#aside h3{
+#aside h3 {
     padding: 20px;
 }
 
-#learn-about{
-    margin-top:70px;
+#learn-about {
+    margin-top: 70px;
     margin-bottom: 50px;
-    margin-left:10px;
-   
+    margin-left: 10px;
+
 }
 
 
-#main-heading{
+#main-heading {
     font-size: 150%;
     text-align: center;
-   
-    
-    
+
+
+
 }
 
 
 
 
 p>a:link {
-    text-decoration:none;
+    text-decoration: none;
     font-size: 100%;
     font-family: Oswald, sans-serif;
     font-weight: 600;
-  
-    
 
-} 
+
+
+}
 
 
 /* Section Classes*/
@@ -378,157 +344,106 @@ p>a:link {
 
 
 
-#footer{
- 
+#footer {
+
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 250px;
     background-color: rgba(223, 217, 217, 0.4);
-   
+
 }
 
-#footer i{
+#footer i {
     font-size: 100%;
-     padding:7%;
-    color:#2f4da0;
- 
+    padding: 7%;
+    color: #2f4da0;
+
 }
 
-#footer li{
+#footer li {
     display: inline;
-   
-    
+
+
 }
 
-#footer h3{
+#footer h3 {
     letter-spacing: 1px;
     text-align: center;
 }
 
-#social{
+#social {
     text-align: center;
     padding-top: 50px;
 
-   
-   
+
+
 }
-#location{
+
+#location {
     text-align: center;
     padding-top: 50px;
-   
-   
-  
-   
+
+
+
+
 }
 
 
-#contact{
+#contact {
     padding-top: 50px;
-  
-   
- 
+
+
+
 }
 
 
 
 /* Media query*/
 
-@media  screen and ( max-width: 1250px) {
+@media screen and (max-width: 1250px) {
 
-   #flex-box{
+    .about-me-section {
         display: flex;
         flex-direction: column;
-        margin: 0 auto;    
-   }
-
-   #small-text{
-       width: 60%;
-       margin: 0 auto;
-       padding-top: 30px;
-       padding-bottom: 20px;
-       
-      
-   }
-
-#video{
-      width: 60%;
-      height: 100%;
-      margin: 0 auto;
-    
-}
-
-/* Review section media query*/
-
-  #review-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-   #review-1,
-   #review-2{
-     width: 70%;
-   }
-
-   #review-2{
-       padding-top:150px
-       
-   }
-
-
-
- 
-   #classes{
-    
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-
-#aside{
-    
-    margin: 0 auto;
-    margin-top:10px;       
-
- }
-
-#learn-about{
-    width: 70%;
-    margin: 0 auto; 
-}
-
-
-
-
-
- 
-}
-
-
-@media  screen and ( max-width: 950px) {
- 
-    #small-text{
-        padding-top: 50px;
-        width: 70%;
-       
+        margin: 0 auto;
     }
 
-    #video{
+    .small-text {
+        width: 70%;
+        margin: 0 auto;
+        padding: 10px 0 10px 0;
+    }
+
+    .video {
+        width: 70%;
+        height: 100%;
+        margin: 0 auto;
+
+    }
+
+    /* Review section media query*/
+
+    #review-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #review-1,
+    #review-2 {
         width: 70%;
     }
- 
 
-
-    #footer{
-        font-size: small;
+    #review-2 {
+        padding-top: 150px
     }
 
- 
-    #classes{
-    
+
+
+
+    #classes {
+
         display: flex;
         flex-direction: column;
         margin-bottom: 10px;
@@ -536,152 +451,177 @@ p>a:link {
     }
 
 
-    #aside{
-            
+    #aside {
+
         margin: 0 auto;
-        margin-top:10px;
-            
+        margin-top: 10px;
 
-     }
+    }
 
-    li h1{
-         position:absolute;
+    #learn-about {
+        width: 70%;
+        margin: 0 auto;
+    }
 
-     }
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 950px) {
+
+
+    #footer {
+        font-size: small;
+    }
+
+
+    #classes {
+
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+
+    #aside {
+
+        margin: 0 auto;
+        margin-top: 10px;
+
+
+    }
+
+    li h1 {
+        position: absolute;
+
+    }
+
     li span {
         position: relative;
         left: 0;
     }
 
 
-    .column{
+    .column {
         width: 70%;
 
     }
-    
- 
+
+
 }
-     
-     
 
 
 
 
-@media  screen and ( max-width: 768px) {
 
 
-   #review-1,
-    #review-2{
-        height: 50%; 
+@media screen and (max-width: 768px) {
+    nav {
+        font-size: small;
+    }
+
+    .menu-nav {
+        top: 80px;
+
+    }
+
+    .small-text {
+        font-size: 100%;
+        width: 90%
+    }
+
+    .video {
+        width: 90%;
+    }
+
+    #review-1,
+    #review-2 {
+        height: 50%;
         display: flex;
         flex-direction: column;
-       
-         
-    } 
- 
-    #review-2{
+    }
+
+    #review-2 {
         padding-top: 5px;
     }
-    
-    .image-review-container{
-        margin:0 auto;
+
+    .image-review-container {
+        margin: 0 auto;
 
     }
 
-    .review-content > h2{
+    .review-content>h2 {
         text-align: center;
     }
- 
-   
-    #footer{
+
+
+    #footer {
         font-size: small;
-       
+
     }
 
-    #footer{
+    #footer {
         display: flex;
         flex-direction: column;
         height: 300px;
     }
-    
-   
-    #social{
+
+
+    #social {
         padding-top: 30px;
     }
 
-    #location{
-    
-        padding-top:30px;
+    #location {
 
-     }
-    
-    #contact{
         padding-top: 30px;
-        
-     }
-    
- 
- 
-    nav{
-        font-size: small;
+
     }
 
-  
- #menu-nav{
-    display: flex;
-    align-items: center;
-    margin: 0;
-    background-color: rgba(223, 217, 217, 0.7);
-    position: absolute;
-    top: 80px; 
-    width: calc(100%-40px);
-    padding: 20px 0; 
-    height: 20px;
-    right:0;
-    
-}
+    #contact {
+        padding-top: 30px;
 
-    a:link{
-        color:#3a3a3a;
-        
- }
- 
-
-
-
-
-
- @media  screen and ( max-width: 680px) {
-
-#small-text{
-        width: 90%;
-    }
-
-
-#video {
-        width: 90%;
-       
     }
 
 
 
 
 
-span {
-    position: absolute;
-    left:0;
-    
+    a:link {
+        color: #3a3a3a;
+
+    }
+
+
+
+
+
+
+    @media screen and (max-width: 680px) {
+
+        .video {
+            width: 100%;
+        }
+
+        span {
+            position: absolute;
+            left: 0;
+
+        }
+
+    }
+
+
+
+    #aside p {
+        width: 80%;
+        height: auto;
+
+    }
+
+
 }
-
- }
-
-
-
-#aside p{
-    width: 80%;
-    height: auto;
-   
-}
-
-
- }
