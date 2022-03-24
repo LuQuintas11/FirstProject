@@ -146,9 +146,12 @@ a:link {
 /*Reviews*/
 
 
-#main{
+#review-container{
     display: flex;
-  
+    margin-left: 20px;
+   
+    
+   
 }
 
 #piano-lessons{
@@ -158,14 +161,14 @@ a:link {
 }
 
 
-#testimonies{
+#review-section{
     margin-top: 50px;
     margin-bottom: 150px;
    
 
 }
 
-.image-testimonial{
+.image-review-container{
     height: 200px;
     width: 200px;
     padding: 10px;
@@ -175,38 +178,29 @@ a:link {
     border-radius: 50%;  
     
 }
-
-img{
+/* Review Image*/
+ img{
     height: 200px;
     width: 200px;
     border-radius: 50%;
-}
- 
-#main-wrap-1, #main-wrap-2{
+} 
+
+#review-1,
+#review-2{
      display: flex;
      flex-direction: row;
-     margin-left: 10px;
-     margin-right: 10px;
      width: 800px;
      height: 100px;
- 
 }
 
-
-
-
-
-
-.content{
+.review-content{
     padding: 30px;
    
 }
 
-.content > p{
-     font-size: 100%;
+.review-content > p{
+     font-size: 120%;
     
-     
-
 }
 
 
@@ -464,20 +458,20 @@ p>a:link {
     
 }
 
+/* Review section media query*/
 
-#main{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-    
- 
-   }
+  #review-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-   #main-wrap-2, #main-wrap-1{
+   #review-1,
+   #review-2{
      width: 70%;
    }
 
-   #main-wrap-2{
+   #review-2{
        padding-top:150px
        
    }
@@ -573,42 +567,29 @@ p>a:link {
 
 
 
-
-
-
-
-
-
-
 @media  screen and ( max-width: 768px) {
 
- 
-    #main{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-    
-  
-    }
- 
-    #main-wrap-2, #main-wrap-1{
+
+   #review-1,
+    #review-2{
+        height: 50%; 
         display: flex;
         flex-direction: column;
-        height: 50%;
-        
-    }
+       
+         
+    } 
  
-    #main-wrap-2{
+    #review-2{
         padding-top: 5px;
-
-    
     }
     
-
-    .image-testimonial{
+    .image-review-container{
         margin:0 auto;
 
+    }
+
+    .review-content > h2{
+        text-align: center;
     }
  
    
