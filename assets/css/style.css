@@ -53,7 +53,6 @@ nav {
     background-color: rgba(223, 217, 217, 0.7);
     position: absolute;
     top: 70px;
-    width: calc(100%-40px);
     padding: 20px 0;
     height: 20px;
     right: 0;
@@ -143,8 +142,8 @@ iframe {
 
 }
 
-/* Review Image*/
-img {
+  
+/* Review Image*/ img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -250,80 +249,66 @@ input[type=submit]:hover {
 
 /*classes html styling*/
 
-
-
-.piano-theory {
-
-    list-style-type: none;
-
-}
-
-.piano-theory span {
-    font-weight: 900;
-    font-size: 100%;
-    letter-spacing: 0ch;
-    text-transform: none;
-
-
-
-}
-
-
 #classes {
     display: flex;
+    font-size: 110%;
 
+}
+
+.classes-container {
+    margin: 70px 0 50px 10px;
+}
+
+.main-classes-heading {
+    font-size: 150%;
+    text-align: center;
 }
 
 .piano-classes {
     margin-top: 40px;
+    font-size: 110%;
+}
+
+.piano-theory-list{
+    list-style-type: none;
+
+}
+
+.piano-theory-list span {
+    font-weight: 900;
+    font-size: 100%;
+    letter-spacing: 0ch;
+    text-transform: none;
 }
 
 
-
-#aside {
-
+.aside-table{
     background-color: rgba(223, 217, 217, 0.7);
     margin-top: 120px;
     margin-left: 10px;
     height: 500px;
-    width: auto;
+   
 }
 
 aside {
-    padding: 10px;
+    padding: 20px;
     margin: 0 auto;
-
+    font-size: 110%;
 
 }
 
-#aside p {
+
+.aside-table p {
     width: 300px;
     height: 100px;
-    padding: 20px;
-
-}
-
-#aside h3 {
-    padding: 20px;
-}
-
-#learn-about {
-    margin-top: 70px;
-    margin-bottom: 50px;
-    margin-left: 10px;
-
-}
-
-
-#main-heading {
-    font-size: 150%;
-    text-align: center;
-
+    padding:20px;
 
 
 }
 
-
+.aside-table h3 {
+    padding: 30px 0 0 20px;
+}
 
 
 p>a:link {
@@ -331,13 +316,10 @@ p>a:link {
     font-size: 100%;
     font-family: Oswald, sans-serif;
     font-weight: 600;
-
-
-
 }
 
 
-/* Section Classes*/
+
 
 
 /*footer*/
@@ -439,61 +421,36 @@ p>a:link {
         padding-top: 150px
     }
 
-
-
-
-    #classes {
-
+    #classes{
         display: flex;
         flex-direction: column;
-        margin-bottom: 10px;
+        margin-bottom: 10px; 
         text-align: center;
     }
 
-
-    #aside {
-
-        margin: 0 auto;
-        margin-top: 10px;
-
-    }
-
-    #learn-about {
+    .classes-container {
         width: 70%;
         margin: 0 auto;
     }
 
 
-
-
-
+    .aside-table {
+        margin: 0 auto;
+        margin-top: 15px;
+    }
 
 }
 
 
 @media screen and (max-width: 950px) {
 
-
     #footer {
         font-size: small;
     }
 
-
-    #classes {
-
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 10px;
-        text-align: center;
-    }
-
-
-    #aside {
-
+    .aside-table{
         margin: 0 auto;
-        margin-top: 10px;
-
-
+    
     }
 
     li h1 {
@@ -619,17 +576,15 @@ p>a:link {
 
         }
 
+        .aside-table{
+        font-size: 90%;
+        width:90%;
+         }
 
+         .aside-table p{
+             width: auto;
+         }
 
-    }
-
-
-
-    #aside p {
-        width: 80%;
-        height: auto;
-
-    }
 
 
 }
