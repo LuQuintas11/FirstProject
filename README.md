@@ -83,7 +83,10 @@ When I run the lighthouse report, on mobile and desktop, it showed the same prob
                                               1. Serve static assets with an efficient cache policy: I talked about this with my mentor and we concluded that the caching policy is defined by server. In this case, github  pages is defining the duration which can't be controlled.
                                               2. Serve images in next-gen formats: Each of the pictures were transform from jpg format to WebP format
                                               3. Properly size images: the image [../image/Woman.jpeg] was resize
-                                              4. Preconnect to required origins: the attribute <link rel=preconnect> was added to the video and to the src="https://kit.fontawesome.com/a3bbce37e5.js" 
+                                              4. Preconnect to required origins: the attribute <link rel=preconnect> was added to the video and to the src="https://kit.fontawesome.com/a3bbce37e5.js".
+                                              
+
+
 
 
 
