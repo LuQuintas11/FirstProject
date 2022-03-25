@@ -23,7 +23,7 @@ The navigation and footer features are present in the three pages:
 * The other navigation links are in the right corner: Home, Classes and Contact page. 
 * The navigation section has a background color that contracts with the the rest of the website. 
 
-![Menu Nav](/assets/image/Menu-nav.png)
+![Menu Nav](/assets/image/Readme-Menu-nav.png)
 
 ### **Footer**
 * The footer includes social media icons to the users can find the teacher facebook, intagram and youtube channel.
@@ -31,14 +31,14 @@ The navigation and footer features are present in the three pages:
 * The footer has the a background color that contracts with the rest of the website. 
 
 
-![Footer](/assets/image/Footer.png)
+![Footer](/assets/image/ReadMe-Footer.png)
 
 ### ** Home site**
 
 * The home site has a main section with a picture of a piano. Embeddeb in this picture there is a small text explaining the teacher education and his motivacion.
 * Next to this small text there is a video showing Facundo playing the piano with his band,  offering an eye catching content to grab users attention. 
 
-![Main-Section](/assets/image/main-section.png)
+![Main-Section](/assets/image/ReadMe-Main%20picture.png)
 
 * Below the main section there is a student reviews section. Each of the review has the student picture. 
 ![Student-Reviews](/assets/image/Readme-StudentReviews.png)
@@ -110,7 +110,7 @@ When I run the lighthouse report, on mobile and desktop, it showed the same prob
 * The font-family was imported from https://fonts.google.com/
 * The Facebook video embedded in index.html was taken from https://www.facebook.com/
 * The README sample was taken from Coding Club Project. 
-
+* I want to give credits to the students Ionut Ciobanu, David Bowers and my tutor Sandeep Aggarwal. 
 
 ## **Deployment**
 
@@ -122,7 +122,7 @@ Once the master branch has been selected, the page will be automatically refresh
 
 The live link can be found here: https://luquintas11.github.io/FirstProject/index.html 
 
-I want to give credits to the students Ionut Ciobanu, David Bowers and my tutor Sandeep Aggarwal. 
+
 
 
 
