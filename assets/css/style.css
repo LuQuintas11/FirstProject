@@ -182,6 +182,17 @@ textarea {
     margin-bottom: 16px;
 }
 
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+
+
+
 input[type=submit]{
     border: 1px solid #b12b7e;
     background-color: #dfa2d1;

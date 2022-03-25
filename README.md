@@ -33,7 +33,9 @@ SCREENSHOT
 * The footer has the a background color that contracts with the rest of the website. 
 Screenshot
 
-## Home site
+### **Home site**
+
+
 
 
 
