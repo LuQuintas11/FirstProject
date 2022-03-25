@@ -32,7 +32,8 @@ The navigation and footer features are present in the three pages:
 
 
 ![Footer](/assets/image/Footer.png)
-1. Home site
+
+### ** Home site**
 
 * The home site has a main section with a picture of a piano. Embeddeb in this picture there is a small text explaining the teacher education and his motivacion.
 * Next to this small text there is a video showing Facundo playing the piano with his band,  offering an eye catching content to grab users attention. 
@@ -42,37 +43,45 @@ The navigation and footer features are present in the three pages:
 * Below the main section there is a student reviews section. Each of the review has the student picture. 
 ![Student-Reviews](/assets/image/Readme-StudentReviews.png)
 
-2. Classes site
+### ** Classes site**
 
 * In this page there is a main text explaining what people will learn if they take piano lessons
 * Beside the main text there is a small text explaining the diferent lessons modalities either online or in-person. In this small text there is a link that direct the users to the contact form page, encouraging them to make any enquiry they may have. 
 ![Classes-site](/assets/image/ReadMe-Classes.png)
 
-3. Contact Me site
+### **Contact Me site**
 
 * In this page there is a contact form that collect  users name, email and any question they may have about the lessons.
 * Below the form there is a map with teacher location. 
 
+*Contact Form:
+
 ![Contact-Form](/assets/image/ReadMe-Contact%20Form.png)
 
-## Testing
+*Map:
+![Map](/assets/image/ReadMe-Map.png)
+
+
+## **Testing**
 
 * This page works in different browser: Firefox, Chrome and Internet explore. 
 * This page has a proper responsive design that allows to run it in different screen sizes
 * The contact form field works: requires entry in every field, only accept and email in the email field, and the submit button works. 
 
-## Bugs
+## **Bugs**
 
 * When I was testing the form I noticed the email field was not requiring an email. Trying to fix this in HTML, the CSS broke down as the screenshot shows. Fortunately I was able to fix it later on.
 
+![Contact Form Bug](/assets/image/ReadMe-Bug.png)
 
-##  Validator Testing
+
+
+##  **Validator Testing**
 
 * HTML: No errors were returned when passing through the official W3C validator. 
 * CSS:  No errorrs were returned when passing through the  official (jigsaw) validator. 
-screenshot 
 
-## Lighthouse report
+## **Lighthouse report**
 
 When I run the lighthouse report, on mobile and desktop, it showed the same problem every time; the perfomance score was not good enough. I had three main option to improve this: 
                                               1. Serve static assets with an efficient cache policy: I talked about this with my mentor and we concluded that the caching policy is defined by server. In this case, github  pages is defining the duration which can't be controlled.
@@ -87,13 +96,13 @@ When I run the lighthouse report, on mobile and desktop, it showed the same prob
 
 ![LightHouse-Test](/assets/image/ReadMe-Perfom-After.png)
 
-## Unfixed Bugs 
+## **Unfixed Bugs**
 
 * The bug "Serve static assets with an efficient cache policy" was not fixed as is not something I can control.
 
-## Credits 
+## **Credits **
 
-Media and content
+#### **Media and content**
 
 * The icons in the footer were taken from Font Awesome  https://fontawesome.com/start
 * The idea  about how to make a responsive design form was taken from https://www.w3schools.com/
@@ -103,7 +112,7 @@ Media and content
 * The README sample was taken from Coding Club Project. 
 
 
-## Deployment 
+## **Deployment**
 
 The site was deployed to GitHub pages using the following steps:
 
