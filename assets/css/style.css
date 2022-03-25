@@ -190,15 +190,13 @@ input[type=email] {
     margin-bottom: 16px;
 }
 
-
-
-
 input[type=submit]{
     border: 1px solid #b12b7e;
     background-color: #dfa2d1;
     width: 100px;
     height: 50px;
 }
+
 input[type=submit]:hover {
     background-color: #be84ba;
 } 
@@ -527,9 +525,6 @@ p>a:link {
         padding-top: 30px;
 
     }
-
-
-
 
 
     a:link {
