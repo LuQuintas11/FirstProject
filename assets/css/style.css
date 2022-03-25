@@ -383,6 +383,8 @@ p>a:link {
         padding-top: 150px
     }
 
+    /* styling classes html*/
+
     #classes {
         display: flex;
         flex-direction: column;
