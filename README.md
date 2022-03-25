@@ -33,7 +33,34 @@ SCREENSHOT
 * The footer has the a background color that contracts with the rest of the website. 
 Screenshot
 
-### **Home site**
+1. Home site
+
+* The home site has a main section with a picture of a piano. Embeddeb in this picute there is a small text explaining the teacher education and his motivacion.
+* Besides this small text there is a video showing Facundo playing the piano with his band.
+
+screenshot
+
+* Below the main section there is a student reviews section. Each of the review has the student picture. 
+screenshot
+
+2. Classes site
+
+* In this page there is a main text explaining what people will learn if they take piano lessons
+* Beside the main text there is a small text explaining the diferent lessons modalities either online or in-person. In this small text there is a link that direct the users to the contact form page, encouraging them to make any enquiry they may have. 
+screenshot
+
+3. Contact Me site
+
+* In this page there is a contact form that collect  users name, email and any question they may have about the lessons.
+* Below the form there is a map with teacher location. 
+
+
+
+## Testing
+
+
+
+
 
 
 
