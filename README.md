@@ -23,7 +23,7 @@ The navigation and footer features are present in the three pages:
 * The other navigation links are in the right corner: Home, Classes and Contact page. 
 * The navigation section has a background color that contracts with the the rest of the website. 
 
-![Menu Nav](/assets/image/Readme-Menu-nav.png)
+![Menu Nav](/assets/image/ReadMe-MenuNav.png)
 
 ### **Footer**
 * The footer includes social media icons to the users can find the teacher facebook, intagram and youtube channel.
