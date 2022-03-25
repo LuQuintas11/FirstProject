@@ -170,30 +170,19 @@ iframe {
 
 /* Contact Me section*/
 
-#contact-me {
+ #contact-me {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} 
 
 #icon-about {
     padding-left: 20px;
 
 }
 
-.block-column {
 
-    background-color: rgb(127, 255, 212);
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
 
-}
-
-.block-content {
-    text-align: center;
-    padding: 15px 15px 15px 15px;
-}
 
 
 #map {
@@ -205,13 +194,6 @@ iframe {
 
 
 
-
-/* check this*/
-
-
-.row {
-    display: flex;
-}
 
 /* Style inputs */
 input[type=text],
@@ -227,19 +209,20 @@ textarea {
 
 
 input[type=submit]:hover {
-    background-color: #45a049;
+     background-color: #45a049;
 }
 
-/* Style the container/contact section */
-.container {
-    padding: 10px;
-    margin-bottom: 80px;
-    margin-top: 80px;
+
+.form-container {
+    margin:20px;
 
 }
 
-/* Create two columns that float next to eachother */
-.column {
+.form-container h2{
+    text-align: center;
+}
+
+.form-column {
     width: 50%;
     padding: 20px;
     margin: 0 auto;
