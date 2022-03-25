@@ -116,7 +116,6 @@ iframe {
 
 #review-container {
     display: flex;
-    margin-left: 20px;
 
 }
 
@@ -128,7 +127,8 @@ iframe {
 
 
 #review-section {
-    margin-top: 50px 0 150px 0;
+    margin: 50px 0 150px 0;
+ 
    
 }
 
@@ -432,7 +432,7 @@ p>a:link {
 
     #review-1,
     #review-2 {
-        width: 70%;
+        width: 90%;
     }
 
     #review-2 {
@@ -607,11 +607,19 @@ p>a:link {
             width: 100%;
         }
 
+
+        #review-1,
+        #review-2{
+            width:100%
+        }
+
         span {
             position: absolute;
             left: 0;
 
         }
+
+
 
     }
 
