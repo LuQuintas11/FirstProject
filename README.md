@@ -58,6 +58,39 @@ screenshot
 
 ## Testing
 
+* This page works in different browser: Firefox, Chrome and Internet explore. 
+* This page has a proper responsive design that allows to run it in different screen sizes
+* The contact form field works: requires entry in every field, only accept and email in the email field, and the submit button works. 
+
+## Bugs
+
+* When I was testing the form I noticed the email field was not requiring an email. Trying to fix this in HTML, the CSS broke down as the screenshot shows. Fortunately I was able to fix it later on.
+
+
+   screenshot
+
+
+## ** Validator Testing**
+
+
+* HTML: No errors were returned when passing through the official W3C validator. 
+* CSS:  No errorrs were returned when passing through the  official (jigsaw) validator. 
+screenshot 
+
+## Lighthouse report
+
+When I run the lighthouse report, on mobile and desktop, it showed the same problem every time; the perfomance score was not good enough. I had three main option to improve this: 
+                                              1. Serve static assets with an efficient cache policy: I talked about this with my mentor and we concluded that the caching policy is defined by server. In this case, github  pages is defining the duration which can't be controlled.
+                                              2. Serve images in next-gen formats: Each of the pictures were transform from jpg format to WebP format
+                                              3. Properly size images: the image [../image/Woman.jpeg] was resize
+                                              4. Preconnect to required origins: the attribute <link rel=preconnect> was added to the video and to the src="https://kit.fontawesome.com/a3bbce37e5.js" 
+
+
+
+
+
+
+
 
 
 
