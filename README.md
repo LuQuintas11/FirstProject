@@ -83,8 +83,29 @@ When I run the lighthouse report, on mobile and desktop, it showed the same prob
                                               1. Serve static assets with an efficient cache policy: I talked about this with my mentor and we concluded that the caching policy is defined by server. In this case, github  pages is defining the duration which can't be controlled.
                                               2. Serve images in next-gen formats: Each of the pictures were transform from jpg format to WebP format
                                               3. Properly size images: the image [../image/Woman.jpeg] was resize
-                                              4. Preconnect to required origins: the attribute <link rel=preconnect> was added to the video and to the src="https://kit.fontawesome.com/a3bbce37e5.js".
-                                              
+                                              4. Preconnect to required origins: the attribute <rel="preload"> was added to the video and to the src="https://kit.fontawesome.com/a3bbce37e5.js".
+
+screenshot
+
+
+## Unfixed Bugs 
+
+* The bug "Serve static assets with an efficient cache policy" was not fixed as is not something I can control.
+
+## Credits 
+
+Media and content
+
+* The icons in the footer were taken from Font Awesome  https://fontawesome.com/start
+* The idea  about how to make a responsive design form was taken from https://www.w3schools.com/
+* The images were taken from https://www.pexels.com/
+* The font-family was imported from https://fonts.google.com/
+* The Facebook video embedded in index.html was taken from https://www.facebook.com/
+* The README sample was taken from Coding Club Project. 
+
+
+I want to give credits to the students Ionut Ciobanu, David Bowers and my tutor Sandeep Aggarwal. 
+
 
 
 
