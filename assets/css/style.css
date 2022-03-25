@@ -297,10 +297,7 @@ p>a:link {
 
 /*footer*/
 
-
-
-#footer {
-
+.footer-container  {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -309,47 +306,39 @@ p>a:link {
 
 }
 
-#footer i {
+.footer-container i {
     font-size: 100%;
     padding: 7%;
     color: #2f4da0;
 
 }
 
-#footer li {
+.footer-container li {
     display: inline;
 
 
 }
 
-#footer h3 {
+.footer-container h3 {
     letter-spacing: 1px;
     text-align: center;
 }
 
-#social {
+.social {
     text-align: center;
     padding-top: 50px;
-
-
-
 }
 
-#location {
+.location {
     text-align: center;
     padding-top: 50px;
-
-
-
 
 }
 
 
-#contact {
+.contact {
     padding-top: 50px;
-
-
-
+    text-align: center;
 }
 
 
@@ -425,7 +414,7 @@ p>a:link {
 
 @media screen and (max-width: 950px) {
 
-    #footer {
+    .footer-container {
         font-size: small;
     }
 
@@ -501,30 +490,27 @@ p>a:link {
     }
 
 
- 
-    #footer {
-        font-size: small;
 
-    }
 
-    #footer {
+    .footer-container {
         display: flex;
         flex-direction: column;
         height: 300px;
+       
     }
 
 
-    #social {
+    .social {
         padding-top: 30px;
     }
 
-    #location {
+    .location {
 
         padding-top: 30px;
 
     }
 
-    #contact {
+    .contact {
         padding-top: 30px;
 
     }
